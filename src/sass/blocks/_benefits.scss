@@ -16,6 +16,12 @@
     &__icon {
         width: 273px;
         text-align: center;
+        &_animated {
+            animation: heartbeat 1.5s ease infinite;
+            &:hover {
+                animation-play-state: paused;
+            }
+        }
     }
     &__header {
         margin-top: 35px;
